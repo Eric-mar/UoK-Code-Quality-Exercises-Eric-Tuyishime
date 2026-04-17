@@ -1,4 +1,7 @@
 function findEvenNumbers(numbers) {
+    // handling types
+
+    if(typeof numbers !== 'number') return 'not a valid input'
 //   var evenNumbers = [];
 //   for (var i = 0; i < numbers.length; i++) {
 //     if (numbers[i] % 2 === 0) {
