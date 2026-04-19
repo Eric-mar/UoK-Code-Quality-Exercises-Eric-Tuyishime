@@ -1,10 +1,10 @@
 let numbers = [1,24,5,44,3,2,44]
 
-function calculateAverage(numbers) {
+const average = (numbers)=>{
 
-let totalSum = numbers.reduce((accumulator,currentValue)=> accumulator + currentValue)
-let totalLength = numbers.length
- return totalSum / totalLength
- 
+    if(typeof numbers !==number ) return "enter numbers"
+ return numbers.reduce((accumulator,currentValue)=> accumulator + currentValue)/numbers.length
 
 }
+console.log(average(numbers))
+
