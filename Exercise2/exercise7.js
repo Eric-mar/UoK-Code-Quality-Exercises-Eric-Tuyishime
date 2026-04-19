@@ -3,4 +3,4 @@ function multiplyingNumbers(x,y){
   
   return x*y;
 }
-multiplyingNumbers(3,2)
+multiplyingNumbers(3,2) 
